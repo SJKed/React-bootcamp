@@ -1,0 +1,51 @@
+.EventsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.Event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #282c34;
+    color: white;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 125px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

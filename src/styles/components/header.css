@@ -1,0 +1,47 @@
+.Header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.HeaderLogo {
+    height: 10vmin;
+    pointer-events: none;
+    margin-left: 0;
+}
+
+.HeaderLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderLinks > a {
+    margin-right: 20px;
+    color: #61dafb;
+    font-size: smaller;
+    text-decoration: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .HeaderLogo {
+        animation: HeaderLogo-spin infinite 20s linear;
+    }
+}
+
+@keyframes HeaderLogo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
